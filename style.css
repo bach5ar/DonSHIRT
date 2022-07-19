@@ -1,0 +1,323 @@
+/*
+2022/07/16
+colors :
+#1E2022
+#F0F5F9
+#52616B
+#C9D6DF
+version 1.0
+*/
+:root {
+	--black: #1E2022;
+	--darkblue: #52616B;
+	--lightblue: #C9D6DF;
+	--whiteblue: #F0F5F9;
+	--white: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--black: #7c7d7f;
+		--darkblue: #9cadb7;
+		--lightblue: #202427;
+		--whiteblue: #202427;
+		--white: #121212;
+	}
+
+	span {
+		color: #7c7d7f;
+	}
+}
+
+body {
+	font-family: 'Rubik', sans-serif;
+	height: 100%;
+	line-height: 1.5;
+	background-color: var (--white);
+	color: var(--black);
+	margin: 0px
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+span,
+input,
+a,
+.transparent {
+	background-color: transparent;
+}
+
+h2,
+p {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+footer,
+.offer,
+.sign_up,
+.top_div {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: var(--darkblue);
+	font-weight: bold;
+}
+
+ul {
+	float: left;
+	list-style: none;
+}
+
+.main-header span {
+	position: absolute;
+	color: White;
+	top: -10px;
+}
+
+h4 {
+	border: 2px solid var(--black);
+	border-radius: 5px;
+}
+
+#icon1 {
+	background-color: ;
+	left: 5px;
+}
+
+#icon2 {
+	right: 45px;
+}
+
+.main-header nav {
+	background-color: var(--black);
+	height: 60px;
+	z-index: 1;
+}
+
+h1 {
+	position: absolute;
+	text-align: center;
+	top: -5px;
+	color: var(--white);
+	left: auto;
+}
+
+main img {
+	filter: saturate(110%);
+	width: 95%;
+	border-radius: 10px;
+}
+
+* {
+	background-color: var(--white);
+}
+
+.top_div div {
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: var(--whiteblue);
+}
+
+.top_div img {
+	border-radius: 0 0 10px 10px;
+}
+
+.gender {
+	width: 100%;
+}
+
+.gender button {
+	margin: 9.5%;
+	border: 4px solid var(--black);
+	border-radius: 10px;
+	background-color: var(--white);
+	width: 30%;
+	height: 150px;
+	color: var(--black);
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.gender button:hover {
+	background-color: var(--black);
+	color: var(--white);
+	border-color: var(--black);
+}
+
+.gendiv {
+	padding-top: 30px;
+}
+
+.gender span {
+	color: var(--white);
+	font-size: 40px;
+}
+
+.row {
+	align-items: stretch;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.Popular_Tshirts {
+	height: 700px;
+	width: ;
+	padding: 20px;
+	background-color: var(--white)&;
+}
+
+.card {
+	background-color: var(--white);
+	flex-grow: 0;
+	flex-shrink: 0;
+	float: left;
+	padding: 5%;
+	text-align: center;
+	width: 40%;
+	height: 40%;
+}
+
+.card img {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card p {
+	height: 60px;
+	font-size: 14px;
+	overflow-y: scroll;
+}
+
+.search {
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+.search button {
+	padding: 20px 15px 20px 15px;
+	border-radius: 5px;
+	font-size: 18px;
+	margin: 10px;
+	border: none;
+}
+
+#black,
+#Red,
+#Blue {
+	color: var(--white);
+}
+
+#black {
+	color: white;
+	background-color: #1E2022;
+}
+
+#white {
+	background-color: #F0F5F9;
+}
+
+#Blue {
+	background-color: #0078AA;
+}
+
+#Red {
+	background-color: #EB1D36;
+}
+
+.offer div {
+	background-color: var(--whiteblue);
+}
+
+.offer img {
+	width: 70%;
+}
+
+.offer div p {
+	font-size: 18px;
+}
+
+.offer div h4 {
+	display: inline-block;
+	padding: 20px;
+	font-size: 18px;
+}
+
+#old_price {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	text-decoration: line-through;
+	text-decoration-color: var(--white);
+}
+
+#new_price {
+	background-color: var(--black);
+	color: var(--white);
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Wesell article p {
+	margin: 10px;
+}
+
+.sign_up {
+	background-color: var(--whiteblue);
+	padding: 5px;
+}
+
+.sign_up p {
+	font-weight: bold;
+}
+
+.sign_up button {
+	width: 30%;
+	height: 60px;
+	margin: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	border: solid var(--whiteblue);
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#signup {
+	color: var(--black);
+	background-color: var(--white);
+}
+
+#login {
+	color: var(--white);
+	background-color: var(--black);
+}
+
+footer {
+	background: var(--whiteblue);
+	padding: 10px;
+}
+
+footer .footer_div2 {
+	background-color: var(--whiteblue);
+	color: var(--darkblue);
+	font-weight: bold;
+	padding: 5px;
+}
+
+.footer_div2 p {
+	margin: 0px;
+}
+
+footer a {
+	padding: 10px;
+}
